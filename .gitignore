@@ -1,5 +1,5 @@
-# Node.js
-node_modules
+# Node.js dependencies
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -12,10 +12,21 @@ pids
 *.seed
 *.pid.lock
 
-# Build
+# Build output
 .next/
 out/
 
-# OS files
+# OS-specific files
 .DS_Store
 Thumbs.db
+*.swp
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.bak
+*.tmp
