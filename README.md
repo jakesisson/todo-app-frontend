@@ -6,9 +6,13 @@ This is a simple, modern frontend for a ToDo application built using **Next.js 1
 ## Features
 
 - **Add and Edit Todos**: Users can add new tasks or edit existing ones.
+- **Assign todos a priority level and due date**
 - **Filter Todos**: Filter tasks based on their completion status (All, Completed, Not Completed).
 - **Search Todos**: Quickly find tasks by their title using Fuse.js.
-- **Sort Todos**: Sort tasks alphabetically by title (A-Z or Z-A).
+- **Sort Todos**: Sort tasks alphabetically by title (A-Z or Z-A), .
+- **Sort Todos**: Sort tasks by priority level and assigned due date
+- **Calendar View**: Users can view todos based on a calendar view.
+- **JWT Authorization and Login**
 - **Responsive Design**: Fully responsive interface built with TailwindCSS.
 
 ## Technologies Used
@@ -46,7 +50,7 @@ Follow these steps to run the application locally:
 
 4. Open your browser and navigate to:
    ```
-   http://localhost:3000
+   http://localhost:3001
    ```
 
 ### Build for Production
